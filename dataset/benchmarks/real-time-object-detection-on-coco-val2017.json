@@ -41,6 +41,39 @@
     "items": [
       {
         "p": {
+          "name": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+          "link": "https://arxiv.org/abs/2605.25046v1"
+        },
+        "c": "https://github.com/mmpmmpmmpjosh/TinyFormer",
+        "n": "TinyFormer-XL-PBM (Objects365 pre-training)",
+        "d": "2026-05-24",
+        "m1": "62.5",
+        "m2": "126 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+          "link": "https://arxiv.org/abs/2605.25046v1"
+        },
+        "c": "https://github.com/mmpmmpmmpjosh/TinyFormer",
+        "n": "TinyFormer-XL-PBM",
+        "d": "2026-05-24",
+        "m1": "60.6",
+        "m2": "126 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "",
+        "n": "RF-DETR-2XL (880px) (Objects365 pre-training)",
+        "d": "2025-11-12",
+        "m1": "60.1",
+        "m2": "58 (T4)"
+      },
+      {
+        "p": {
           "name": "DEIM: DETR with Improved Matching for Fast Convergence",
           "link": "https://arxiv.org/abs/2412.04234v3"
         },
@@ -60,6 +93,60 @@
         "d": "2024-10-17",
         "m1": "59.3",
         "m2": "78 (T4)"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "",
+        "n": "RF-DETR-XL (700px) (Objects365 pre-training)",
+        "d": "2025-11-12",
+        "m1": "58.6",
+        "m2": "87 (T4)"
+      },
+      {
+        "p": {
+          "name": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+          "link": "https://arxiv.org/abs/2605.25046v1"
+        },
+        "c": "https://github.com/mmpmmpmmpjosh/TinyFormer",
+        "n": "TinyFormer-X",
+        "d": "2026-05-24",
+        "m1": "58.4",
+        "m2": "216 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection",
+          "link": "https://arxiv.org/abs/2406.03459v1"
+        },
+        "c": "https://github.com/Atten4Vis/LW-DETR",
+        "n": "LW-DETR-xlarge (Objects365 pre-training)",
+        "d": "2024-06-05",
+        "m1": "58.3",
+        "m2": "52 (T4)"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-X (DINOv3 backbone)",
+        "d": "2025-09-25",
+        "m1": "57.8"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+          "link": "https://arxiv.org/abs/2606.03748v1"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO26x (Objects365 pre-training)",
+        "d": "2026-06-02",
+        "m1": "57.5",
+        "m2": "85 (T4)"
       },
       {
         "p": {
@@ -85,6 +172,17 @@
       },
       {
         "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "",
+        "n": "RT-DETRv4-X",
+        "d": "2025-10-29",
+        "m1": "57.0",
+        "m2": "78 (T4)"
+      },
+      {
+        "p": {
           "name": "DEIM: DETR with Improved Matching for Fast Convergence",
           "link": "https://arxiv.org/abs/2412.04234v3"
         },
@@ -93,6 +191,60 @@
         "d": "2024-12-05",
         "m1": "56.5",
         "m2": "78 (T4)"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "",
+        "n": "RF-DETR-L (704px) (Objects365 pre-training)",
+        "d": "2025-11-12",
+        "m1": "56.5",
+        "m2": "147 (T4)"
+      },
+      {
+        "p": {
+          "name": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+          "link": "https://arxiv.org/abs/2605.25046v1"
+        },
+        "c": "https://github.com/mmpmmpmmpjosh/TinyFormer",
+        "n": "TinyFormer-L",
+        "d": "2026-05-24",
+        "m1": "56.5",
+        "m2": "282 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "VajraV1 -- The most accurate Real Time Object Detector of the YOLO family",
+          "link": "https://arxiv.org/abs/2512.13834v1"
+        },
+        "c": "https://github.com/NamanMakkar/VayuAI",
+        "n": "VajraV1-Xlarge",
+        "d": "2025-12-15",
+        "m1": "56.2",
+        "m2": "312 (RTX 4090)"
+      },
+      {
+        "p": {
+          "name": "LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection",
+          "link": "https://arxiv.org/abs/2406.03459v1"
+        },
+        "c": "https://github.com/Atten4Vis/LW-DETR",
+        "n": "LW-DETR-large (Objects365 pre-training)",
+        "d": "2024-06-05",
+        "m1": "56.1",
+        "m2": "114 (T4)"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-L (DINOv3 backbone)",
+        "d": "2025-09-25",
+        "m1": "56.0"
       },
       {
         "p": {
@@ -114,6 +266,17 @@
         "n": "YOLOv9-E",
         "d": "2024-02-21",
         "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "",
+        "n": "RT-DETRv4-L",
+        "d": "2025-10-29",
+        "m1": "55.4",
+        "m2": "124 (T4)"
       },
       {
         "p": {
@@ -139,6 +302,17 @@
       },
       {
         "p": {
+          "name": "YOLO-PRO: Enhancing Instance-Specific Object Detection with Full-Channel Global Self-Attention",
+          "link": "https://arxiv.org/abs/2503.02348v3"
+        },
+        "c": "",
+        "n": "YOLO-PRO-X (YOLO11-based)",
+        "d": "2025-03-04",
+        "m1": "55.1",
+        "m2": "75 (T4)"
+      },
+      {
+        "p": {
           "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
           "link": "https://arxiv.org/abs/2402.13616v2"
         },
@@ -146,6 +320,28 @@
         "n": "GELAN-E",
         "d": "2024-02-21",
         "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+          "link": "https://arxiv.org/abs/2606.03748v1"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO26l (Objects365 pre-training)",
+        "d": "2026-06-02",
+        "m1": "55.0",
+        "m2": "161 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLO-PRO: Enhancing Instance-Specific Object Detection with Full-Channel Global Self-Attention",
+          "link": "https://arxiv.org/abs/2503.02348v3"
+        },
+        "c": "",
+        "n": "YOLO-PRO-X (YOLOv8-based)",
+        "d": "2025-03-04",
+        "m1": "54.9",
+        "m2": "59 (T4)"
       },
       {
         "p": {
@@ -157,6 +353,17 @@
         "d": "2023-04-17",
         "m1": "54.8",
         "m2": "74 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception",
+          "link": "https://arxiv.org/abs/2506.17733v2"
+        },
+        "c": "https://github.com/iMoonLab/yolov13",
+        "n": "YOLOv13-X",
+        "d": "2025-06-21",
+        "m1": "54.8",
+        "m2": "68 (T4)"
       },
       {
         "p": {
@@ -182,6 +389,28 @@
       },
       {
         "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "",
+        "n": "RF-DETR-M (576px) (Objects365 pre-training)",
+        "d": "2025-11-12",
+        "m1": "54.7",
+        "m2": "227 (T4)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision",
+          "link": "https://arxiv.org/abs/2409.08475v3"
+        },
+        "c": "https://github.com/clxia12/RT-DETRv3",
+        "n": "RT-DETRv3-R101",
+        "d": "2024-09-13",
+        "m1": "54.6",
+        "m2": "74 (T4)"
+      },
+      {
+        "p": {
           "name": "YOLOv10: Real-Time End-to-End Object Detection",
           "link": "https://arxiv.org/abs/2405.14458v2"
         },
@@ -204,6 +433,17 @@
       },
       {
         "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-X",
+        "d": "2024-07-24",
+        "m1": "54.3",
+        "m2": "74 (T4)"
+      },
+      {
+        "p": {
           "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
           "link": "https://arxiv.org/abs/2410.13842v1"
         },
@@ -212,6 +452,50 @@
         "d": "2024-10-17",
         "m1": "54.0",
         "m2": "124 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8x",
+        "d": "2023-01-10",
+        "m1": "53.9",
+        "m2": "283 (A100)"
+      },
+      {
+        "p": {
+          "name": "YOLO-PRO: Enhancing Instance-Specific Object Detection with Full-Channel Global Self-Attention",
+          "link": "https://arxiv.org/abs/2503.02348v3"
+        },
+        "c": "",
+        "n": "YOLO-PRO-L (YOLOv8-based)",
+        "d": "2025-03-04",
+        "m1": "53.9",
+        "m2": "97 (T4)"
+      },
+      {
+        "p": {
+          "name": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+          "link": "https://arxiv.org/abs/2408.04804v2"
+        },
+        "c": "https://github.com/iMoonLab/Hyper-YOLO",
+        "n": "Hyper-YOLO-L",
+        "d": "2024-08-09",
+        "m1": "53.8",
+        "m2": "73 (T4)"
+      },
+      {
+        "p": {
+          "name": "DEYO: DETR with YOLO for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2402.16370v1"
+        },
+        "c": "https://github.com/ouyanghaodong/DEYO",
+        "n": "DEYO-X",
+        "d": "2024-02-26",
+        "m1": "53.7",
+        "m2": "65 (T4)"
       },
       {
         "p": {
@@ -226,6 +510,72 @@
       },
       {
         "p": {
+          "name": "VajraV1 -- The most accurate Real Time Object Detector of the YOLO family",
+          "link": "https://arxiv.org/abs/2512.13834v1"
+        },
+        "c": "https://github.com/NamanMakkar/VayuAI",
+        "n": "VajraV1-Large",
+        "d": "2025-12-15",
+        "m1": "53.7",
+        "m2": "556 (RTX 4090)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "",
+        "n": "RT-DETRv4-M",
+        "d": "2025-10-29",
+        "m1": "53.5",
+        "m2": "169 (T4)"
+      },
+      {
+        "p": {
+          "name": "HA-DETR: accelerating real-time object detection by replacing decoder self-attention",
+          "link": "https://doi.org/10.1038/s41598-026-48909-1"
+        },
+        "c": "",
+        "n": "HA-DETR (ResNet-50)",
+        "d": "2026-04-16",
+        "m1": "53.5",
+        "m2": "35 (V100)"
+      },
+      {
+        "p": {
+          "name": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+          "link": "https://arxiv.org/abs/2605.25046v1"
+        },
+        "c": "https://github.com/mmpmmpmmpjosh/TinyFormer",
+        "n": "TinyFormer-M",
+        "d": "2026-05-24",
+        "m1": "53.5",
+        "m2": "328 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-L",
+        "d": "2024-07-24",
+        "m1": "53.4",
+        "m2": "108 (T4)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision",
+          "link": "https://arxiv.org/abs/2409.08475v3"
+        },
+        "c": "https://github.com/clxia12/RT-DETRv3",
+        "n": "RT-DETRv3-R50",
+        "d": "2024-09-13",
+        "m1": "53.4",
+        "m2": "109 (T4)"
+      },
+      {
+        "p": {
           "name": "Ultralytics YOLO11",
           "link": "https://docs.ultralytics.com/models/yolo11/"
         },
@@ -237,6 +587,28 @@
       },
       {
         "p": {
+          "name": "YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception",
+          "link": "https://arxiv.org/abs/2506.17733v2"
+        },
+        "c": "https://github.com/iMoonLab/yolov13",
+        "n": "YOLOv13-L",
+        "d": "2025-06-21",
+        "m1": "53.4",
+        "m2": "116 (T4)"
+      },
+      {
+        "p": {
+          "name": "Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism",
+          "link": "https://arxiv.org/abs/2309.11331v5"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "Gold-YOLO-L (self-distillation)",
+        "d": "2023-09-20",
+        "m1": "53.2",
+        "m2": "88 (T4)"
+      },
+      {
+        "p": {
           "name": "YOLOv10: Real-Time End-to-End Object Detection",
           "link": "https://arxiv.org/abs/2405.14458v2"
         },
@@ -245,6 +617,39 @@
         "d": "2024-05-23",
         "m1": "53.2",
         "m2": "137 (T4)"
+      },
+      {
+        "p": {
+          "name": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+          "link": "https://arxiv.org/abs/2408.04804v2"
+        },
+        "c": "https://github.com/iMoonLab/Hyper-YOLO",
+        "n": "Hyper-YOLOv1.1-C",
+        "d": "2024-08-09",
+        "m1": "53.2",
+        "m2": "121 (T4)"
+      },
+      {
+        "p": {
+          "name": "Rethinking Features-Fused-Pyramid-Neck for Object Detection",
+          "link": "https://arxiv.org/abs/2505.12820v1"
+        },
+        "c": "https://github.com/AlanLi1997/rethinking-fpn",
+        "n": "SYOLO (large)",
+        "d": "2025-05-19",
+        "m1": "53.1",
+        "m2": "97 (V100)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+          "link": "https://arxiv.org/abs/2606.03748v1"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO26m (Objects365 pre-training)",
+        "d": "2026-06-02",
+        "m1": "53.1",
+        "m2": "213 (T4)"
       },
       {
         "p": {
@@ -266,6 +671,48 @@
         "n": "YOLOv9-C",
         "d": "2024-02-21",
         "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-M (DINOv3-distilled backbone)",
+        "d": "2025-09-25",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8l",
+        "d": "2023-01-10",
+        "m1": "52.9",
+        "m2": "418 (A100)"
+      },
+      {
+        "p": {
+          "name": "Octave-YOLO: Cross frequency detection network with octave convolution",
+          "link": "https://arxiv.org/abs/2407.19746v1"
+        },
+        "c": "",
+        "n": "Octave-YOLO-X",
+        "d": "2024-07-29",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "",
+        "n": "RF-DETR-S (512px) (Objects365 pre-training)",
+        "d": "2025-11-12",
+        "m1": "52.9",
+        "m2": "286 (T4)"
       },
       {
         "p": {
@@ -291,6 +738,17 @@
       },
       {
         "p": {
+          "name": "DEYO: DETR with YOLO for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2402.16370v1"
+        },
+        "c": "https://github.com/ouyanghaodong/DEYO",
+        "n": "DEYO-L",
+        "d": "2024-02-26",
+        "m1": "52.7",
+        "m2": "100 (T4)"
+      },
+      {
+        "p": {
           "name": "DEIM: DETR with Improved Matching for Fast Convergence",
           "link": "https://arxiv.org/abs/2412.04234v3"
         },
@@ -299,6 +757,27 @@
         "d": "2024-12-05",
         "m1": "52.7",
         "m2": "180 (T4)"
+      },
+      {
+        "p": {
+          "name": "MHAF-YOLO: Multi-Branch Heterogeneous Auxiliary Fusion YOLO for accurate object detection",
+          "link": "https://arxiv.org/abs/2502.04656v2"
+        },
+        "c": "https://github.com/yang-0201/MHAF-YOLO",
+        "n": "MHAF-YOLO-m",
+        "d": "2025-02-07",
+        "m1": "52.7"
+      },
+      {
+        "p": {
+          "name": "VajraV1 -- The most accurate Real Time Object Detector of the YOLO family",
+          "link": "https://arxiv.org/abs/2512.13834v1"
+        },
+        "c": "https://github.com/NamanMakkar/VayuAI",
+        "n": "VajraV1-Medium",
+        "d": "2025-12-15",
+        "m1": "52.7",
+        "m2": "667 (RTX 4090)"
       },
       {
         "p": {
@@ -323,6 +802,17 @@
       },
       {
         "p": {
+          "name": "LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection",
+          "link": "https://arxiv.org/abs/2406.03459v1"
+        },
+        "c": "https://github.com/Atten4Vis/LW-DETR",
+        "n": "LW-DETR-medium (Objects365 pre-training)",
+        "d": "2024-06-05",
+        "m1": "52.5",
+        "m2": "179 (T4)"
+      },
+      {
+        "p": {
           "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
           "link": "https://arxiv.org/abs/2502.12524v1"
         },
@@ -334,6 +824,16 @@
       },
       {
         "p": {
+          "name": "Octave-YOLO: Cross frequency detection network with octave convolution",
+          "link": "https://arxiv.org/abs/2407.19746v1"
+        },
+        "c": "",
+        "n": "Octave-YOLO-L",
+        "d": "2024-07-29",
+        "m1": "52.3"
+      },
+      {
+        "p": {
           "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
           "link": "https://arxiv.org/abs/2410.13842v1"
         },
@@ -342,6 +842,82 @@
         "d": "2024-10-17",
         "m1": "52.3",
         "m2": "180 (T4)"
+      },
+      {
+        "p": {
+          "name": "Mamba YOLO: A Simple Baseline for Object Detection with State Space Model",
+          "link": "https://arxiv.org/abs/2406.05835v2"
+        },
+        "c": "https://github.com/HZAI-ZJNU/Mamba-YOLO",
+        "n": "Mamba YOLO-L",
+        "d": "2024-06-09",
+        "m1": "52.1",
+        "m2": "233 (RTX 4090)"
+      },
+      {
+        "p": {
+          "name": "P$^2$HCT: Plug-and-Play Hierarchical C2F Transformer for Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2505.12772v3"
+        },
+        "c": "https://github.com/inlmouse/P2HCT",
+        "n": "YOLOv11-P2HCT-M",
+        "d": "2025-05-19",
+        "m1": "52.1"
+      },
+      {
+        "p": {
+          "name": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+          "link": "https://arxiv.org/abs/2408.04804v2"
+        },
+        "c": "https://github.com/iMoonLab/Hyper-YOLO",
+        "n": "Hyper-YOLO-M",
+        "d": "2024-08-09",
+        "m1": "52.0",
+        "m2": "111 (T4)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-M*",
+        "d": "2024-07-24",
+        "m1": "51.9",
+        "m2": "145 (T4)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision",
+          "link": "https://arxiv.org/abs/2409.08475v3"
+        },
+        "c": "https://github.com/clxia12/RT-DETRv3",
+        "n": "RT-DETRv3-R50m",
+        "d": "2024-09-13",
+        "m1": "51.7",
+        "m2": "145 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLO-PRO: Enhancing Instance-Specific Object Detection with Full-Channel Global Self-Attention",
+          "link": "https://arxiv.org/abs/2503.02348v3"
+        },
+        "c": "",
+        "n": "YOLO-PRO-M (YOLOv8-based)",
+        "d": "2025-03-04",
+        "m1": "51.6",
+        "m2": "152 (T4)"
+      },
+      {
+        "p": {
+          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2212.07784v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
+        "n": "RTMDet-l",
+        "d": "2022-12-14",
+        "m1": "51.5",
+        "m2": "417 (RTX 3090)"
       },
       {
         "p": {
@@ -363,6 +939,17 @@
         "n": "YOLOv9-M",
         "d": "2024-02-21",
         "m1": "51.4"
+      },
+      {
+        "p": {
+          "name": "TinyFormer: Preserving Tiny Objects in YOLO-DETR Hybrid Real-time Detectors",
+          "link": "https://arxiv.org/abs/2605.25046v1"
+        },
+        "c": "https://github.com/mmpmmpmmpjosh/TinyFormer",
+        "n": "TinyFormer-S",
+        "d": "2026-05-24",
+        "m1": "51.3",
+        "m2": "429 (RTX 3090)"
       },
       {
         "p": {
@@ -397,6 +984,27 @@
       },
       {
         "p": {
+          "name": "Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism",
+          "link": "https://arxiv.org/abs/2309.11331v5"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "Gold-YOLO-M (self-distillation)",
+        "d": "2023-09-20",
+        "m1": "50.9",
+        "m2": "152 (T4)"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-S (DINOv3-distilled backbone)",
+        "d": "2025-09-25",
+        "m1": "50.9"
+      },
+      {
+        "p": {
           "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
           "link": "https://arxiv.org/abs/2211.15444v4"
         },
@@ -405,6 +1013,17 @@
         "d": "2022-11-23",
         "m1": "50.8",
         "m2": "126 (V100)"
+      },
+      {
+        "p": {
+          "name": "DEYO: DETR with YOLO for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2402.16370v1"
+        },
+        "c": "https://github.com/ouyanghaodong/DEYO",
+        "n": "DEYO-M",
+        "d": "2024-02-26",
+        "m1": "50.7",
+        "m2": "140 (T4)"
       },
       {
         "p": {
@@ -419,6 +1038,27 @@
       },
       {
         "p": {
+          "name": "XiYOLO: Energy-Aware Object Detection via Iterative Architecture Search and Scaling",
+          "link": "https://arxiv.org/abs/2605.06927v1"
+        },
+        "c": "",
+        "n": "XiYOLO-m",
+        "d": "2026-05-07",
+        "m1": "50.7"
+      },
+      {
+        "p": {
+          "name": "VajraV1 -- The most accurate Real Time Object Detector of the YOLO family",
+          "link": "https://arxiv.org/abs/2512.13834v1"
+        },
+        "c": "https://github.com/NamanMakkar/VayuAI",
+        "n": "VajraV1-Small",
+        "d": "2025-12-15",
+        "m1": "50.4",
+        "m2": "909 (RTX 4090)"
+      },
+      {
+        "p": {
           "name": "YOLOv6 v3.0: A Full-Scale Reloading",
           "link": "https://arxiv.org/abs/2301.05586v1"
         },
@@ -427,6 +1067,28 @@
         "d": "2023-01-13",
         "m1": "50.3",
         "m2": "98 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8m",
+        "d": "2023-01-10",
+        "m1": "50.2",
+        "m2": "546 (A100)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision",
+          "link": "https://arxiv.org/abs/2409.08475v3"
+        },
+        "c": "https://github.com/clxia12/RT-DETRv3",
+        "n": "RT-DETRv3-R34",
+        "d": "2024-09-13",
+        "m1": "50.1",
+        "m2": "159 (T4)"
       },
       {
         "p": {
@@ -441,6 +1103,70 @@
       },
       {
         "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-M",
+        "d": "2024-07-24",
+        "m1": "49.9",
+        "m2": "161 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLO-MS: Rethinking Multi-Scale Representation Learning for Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2308.05480v2"
+        },
+        "c": "https://github.com/FishAndWasabi/YOLO-MS",
+        "n": "YOLO-MS",
+        "d": "2023-08-10",
+        "m1": "49.7",
+        "m2": "95 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "Octave-YOLO: Cross frequency detection network with octave convolution",
+          "link": "https://arxiv.org/abs/2407.19746v1"
+        },
+        "c": "",
+        "n": "Octave-YOLO-M",
+        "d": "2024-07-29",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "",
+        "n": "RT-DETRv4-S",
+        "d": "2025-10-29",
+        "m1": "49.7",
+        "m2": "273 (T4)"
+      },
+      {
+        "p": {
+          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2212.07784v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
+        "n": "RTMDet-m",
+        "d": "2022-12-14",
+        "m1": "49.4",
+        "m2": "617 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "MHAF-YOLO: Multi-Branch Heterogeneous Auxiliary Fusion YOLO for accurate object detection",
+          "link": "https://arxiv.org/abs/2502.04656v2"
+        },
+        "c": "https://github.com/yang-0201/MHAF-YOLO",
+        "n": "MHAF-YOLO-s (pretrained backbone)",
+        "d": "2025-02-07",
+        "m1": "49.4"
+      },
+      {
+        "p": {
           "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
           "link": "https://arxiv.org/abs/2211.15444v4"
         },
@@ -449,6 +1175,27 @@
         "d": "2022-11-23",
         "m1": "49.2",
         "m2": "233 (V100)"
+      },
+      {
+        "p": {
+          "name": "Mamba YOLO: A Simple Baseline for Object Detection with State Space Model",
+          "link": "https://arxiv.org/abs/2406.05835v2"
+        },
+        "c": "https://github.com/HZAI-ZJNU/Mamba-YOLO",
+        "n": "Mamba YOLO-B",
+        "d": "2024-06-09",
+        "m1": "49.1",
+        "m2": "455 (RTX 4090)"
+      },
+      {
+        "p": {
+          "name": "YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection",
+          "link": "https://arxiv.org/abs/2512.23273v2"
+        },
+        "c": "",
+        "n": "YOLO-Master-S",
+        "d": "2025-12-29",
+        "m1": "49.1"
       },
       {
         "p": {
@@ -463,6 +1210,38 @@
       },
       {
         "p": {
+          "name": "MHAF-YOLO: Multi-Branch Heterogeneous Auxiliary Fusion YOLO for accurate object detection",
+          "link": "https://arxiv.org/abs/2502.04656v2"
+        },
+        "c": "https://github.com/yang-0201/MHAF-YOLO",
+        "n": "MHAF-YOLO-s",
+        "d": "2025-02-07",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision",
+          "link": "https://arxiv.org/abs/2409.08475v3"
+        },
+        "c": "https://github.com/clxia12/RT-DETRv3",
+        "n": "RT-DETRv3-R18",
+        "d": "2024-09-13",
+        "m1": "48.7",
+        "m2": "217 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+          "link": "https://arxiv.org/abs/2606.03748v1"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO26s (Objects365 pre-training)",
+        "d": "2026-06-02",
+        "m1": "48.6",
+        "m2": "400 (T4)"
+      },
+      {
+        "p": {
           "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
           "link": "https://arxiv.org/abs/2410.13842v1"
         },
@@ -471,6 +1250,39 @@
         "d": "2024-10-17",
         "m1": "48.5",
         "m2": "287 (T4)"
+      },
+      {
+        "p": {
+          "name": "HA-DETR: accelerating real-time object detection by replacing decoder self-attention",
+          "link": "https://doi.org/10.1038/s41598-026-48909-1"
+        },
+        "c": "",
+        "n": "HA-DETR (ResNet-18)",
+        "d": "2026-04-16",
+        "m1": "48.4",
+        "m2": "68 (V100)"
+      },
+      {
+        "p": {
+          "name": "LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection",
+          "link": "https://arxiv.org/abs/2406.03459v1"
+        },
+        "c": "https://github.com/Atten4Vis/LW-DETR",
+        "n": "LW-DETR-small (Objects365 pre-training)",
+        "d": "2024-06-05",
+        "m1": "48.0",
+        "m2": "345 (T4)"
+      },
+      {
+        "p": {
+          "name": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+          "link": "https://arxiv.org/abs/2408.04804v2"
+        },
+        "c": "https://github.com/iMoonLab/Hyper-YOLO",
+        "n": "Hyper-YOLO-S",
+        "d": "2024-08-09",
+        "m1": "48.0",
+        "m2": "212 (T4)"
       },
       {
         "p": {
@@ -485,12 +1297,55 @@
       },
       {
         "p": {
+          "name": "YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception",
+          "link": "https://arxiv.org/abs/2506.17733v2"
+        },
+        "c": "https://github.com/iMoonLab/yolov13",
+        "n": "YOLOv13-S",
+        "d": "2025-06-21",
+        "m1": "48.0",
+        "m2": "336 (T4)"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "",
+        "n": "RF-DETR-N (384px) (Objects365 pre-training)",
+        "d": "2025-11-12",
+        "m1": "48.0",
+        "m2": "435 (T4)"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-S",
+        "d": "2024-07-24",
+        "m1": "47.9",
+        "m2": "217 (T4)"
+      },
+      {
+        "p": {
           "name": "Multi-Branch Auxiliary Fusion YOLO with Re-parameterization Heterogeneous Convolutional for accurate object detection",
           "link": "https://arxiv.org/abs/2407.04381v1"
         },
         "c": "https://github.com/yang-0201/MAF-YOLO",
         "n": "MAF-YOLO-s",
         "d": "2024-07-05",
+        "m1": "47.4"
+      },
+      {
+        "p": {
+          "name": "P$^2$HCT: Plug-and-Play Hierarchical C2F Transformer for Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2505.12772v3"
+        },
+        "c": "https://github.com/inlmouse/P2HCT",
+        "n": "YOLOv11-P2HCT-S",
+        "d": "2025-05-19",
         "m1": "47.4"
       },
       {
@@ -526,6 +1381,27 @@
       },
       {
         "p": {
+          "name": "YOLO-PRO: Enhancing Instance-Specific Object Detection with Full-Channel Global Self-Attention",
+          "link": "https://arxiv.org/abs/2503.02348v3"
+        },
+        "c": "",
+        "n": "YOLO-PRO-S (YOLOv8-based)",
+        "d": "2025-03-04",
+        "m1": "46.5",
+        "m2": "355 (T4)"
+      },
+      {
+        "p": {
+          "name": "XiYOLO: Energy-Aware Object Detection via Iterative Architecture Search and Scaling",
+          "link": "https://arxiv.org/abs/2605.06927v1"
+        },
+        "c": "",
+        "n": "XiYOLO-s",
+        "d": "2026-05-07",
+        "m1": "46.5"
+      },
+      {
+        "p": {
           "name": "YOLOv10: Real-Time End-to-End Object Detection",
           "link": "https://arxiv.org/abs/2405.14458v2"
         },
@@ -534,6 +1410,17 @@
         "d": "2024-05-23",
         "m1": "46.3",
         "m2": "402 (T4)"
+      },
+      {
+        "p": {
+          "name": "Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism",
+          "link": "https://arxiv.org/abs/2309.11331v5"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "Gold-YOLO-S (self-distillation)",
+        "d": "2023-09-20",
+        "m1": "46.1",
+        "m2": "286 (T4)"
       },
       {
         "p": {
@@ -548,6 +1435,28 @@
       },
       {
         "p": {
+          "name": "DEYO: DETR with YOLO for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2402.16370v1"
+        },
+        "c": "https://github.com/ouyanghaodong/DEYO",
+        "n": "DEYO-S",
+        "d": "2024-02-26",
+        "m1": "45.8",
+        "m2": "299 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLO-MS: Rethinking Multi-Scale Representation Learning for Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2308.05480v2"
+        },
+        "c": "https://github.com/FishAndWasabi/YOLO-MS",
+        "n": "YOLO-MS-S",
+        "d": "2023-08-10",
+        "m1": "45.4",
+        "m2": "137 (RTX 3090)"
+      },
+      {
+        "p": {
           "name": "YOLOv6 v3.0: A Full-Scale Reloading",
           "link": "https://arxiv.org/abs/2301.05586v1"
         },
@@ -559,6 +1468,112 @@
       },
       {
         "p": {
+          "name": "Octave-YOLO: Cross frequency detection network with octave convolution",
+          "link": "https://arxiv.org/abs/2407.19746v1"
+        },
+        "c": "",
+        "n": "Octave-YOLO-S",
+        "d": "2024-07-29",
+        "m1": "45.0"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8s",
+        "d": "2023-01-10",
+        "m1": "44.9",
+        "m2": "833 (A100)"
+      },
+      {
+        "p": {
+          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2212.07784v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
+        "n": "RTMDet-s",
+        "d": "2022-12-14",
+        "m1": "44.6",
+        "m2": "820 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "Mamba YOLO: A Simple Baseline for Object Detection with State Space Model",
+          "link": "https://arxiv.org/abs/2406.05835v2"
+        },
+        "c": "https://github.com/HZAI-ZJNU/Mamba-YOLO",
+        "n": "Mamba YOLO-T",
+        "d": "2024-06-09",
+        "m1": "44.5",
+        "m2": "667 (RTX 4090)"
+      },
+      {
+        "p": {
+          "name": "VajraV1 -- The most accurate Real Time Object Detector of the YOLO family",
+          "link": "https://arxiv.org/abs/2512.13834v1"
+        },
+        "c": "https://github.com/NamanMakkar/VayuAI",
+        "n": "VajraV1-Nano",
+        "d": "2025-12-15",
+        "m1": "44.3",
+        "m2": "909 (RTX 4090)"
+      },
+      {
+        "p": {
+          "name": "MHAF-YOLO: Multi-Branch Heterogeneous Auxiliary Fusion YOLO for accurate object detection",
+          "link": "https://arxiv.org/abs/2502.04656v2"
+        },
+        "c": "https://github.com/yang-0201/MHAF-YOLO",
+        "n": "MHAF-YOLO-n (pretrained backbone)",
+        "d": "2025-02-07",
+        "m1": "43.1"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-Nano",
+        "d": "2025-09-25",
+        "m1": "43.0"
+      },
+      {
+        "p": {
+          "name": "YOLO-MS: Rethinking Multi-Scale Representation Learning for Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2308.05480v2"
+        },
+        "c": "https://github.com/FishAndWasabi/YOLO-MS",
+        "n": "YOLO-MS-XS",
+        "d": "2023-08-10",
+        "m1": "42.8",
+        "m2": "141 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection",
+          "link": "https://arxiv.org/abs/2406.03459v1"
+        },
+        "c": "https://github.com/Atten4Vis/LW-DETR",
+        "n": "LW-DETR-tiny (Objects365 pre-training)",
+        "d": "2024-06-05",
+        "m1": "42.6",
+        "m2": "500 (T4)"
+      },
+      {
+        "p": {
+          "name": "P$^2$HCT: Plug-and-Play Hierarchical C2F Transformer for Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2505.12772v3"
+        },
+        "c": "https://github.com/inlmouse/P2HCT",
+        "n": "YOLOv12-P2HCT-N",
+        "d": "2025-05-19",
+        "m1": "42.6"
+      },
+      {
+        "p": {
           "name": "Multi-Branch Auxiliary Fusion YOLO with Re-parameterization Heterogeneous Convolutional for accurate object detection",
           "link": "https://arxiv.org/abs/2407.04381v1"
         },
@@ -566,6 +1581,26 @@
         "n": "MAF-YOLO-n",
         "d": "2024-07-05",
         "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection",
+          "link": "https://arxiv.org/abs/2512.23273v2"
+        },
+        "c": "",
+        "n": "YOLO-Master-N",
+        "d": "2025-12-29",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "MHAF-YOLO: Multi-Branch Heterogeneous Auxiliary Fusion YOLO for accurate object detection",
+          "link": "https://arxiv.org/abs/2502.04656v2"
+        },
+        "c": "https://github.com/yang-0201/MHAF-YOLO",
+        "n": "MHAF-YOLO-n",
+        "d": "2025-02-07",
+        "m1": "42.3"
       },
       {
         "p": {
@@ -591,6 +1626,71 @@
       },
       {
         "p": {
+          "name": "Lightweight Backbone Networks Only Require Adaptive Lightweight Self-Attention Mechanisms",
+          "link": "https://arxiv.org/abs/2508.01385v1"
+        },
+        "c": "",
+        "n": "LOLViT-X (YOLO head)",
+        "d": "2025-08-02",
+        "m1": "41.9",
+        "m2": "99 (RTX 4060 Ti)"
+      },
+      {
+        "p": {
+          "name": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+          "link": "https://arxiv.org/abs/2408.04804v2"
+        },
+        "c": "https://github.com/iMoonLab/Hyper-YOLO",
+        "n": "Hyper-YOLO-N",
+        "d": "2024-08-09",
+        "m1": "41.8",
+        "m2": "364 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception",
+          "link": "https://arxiv.org/abs/2506.17733v2"
+        },
+        "c": "https://github.com/iMoonLab/yolov13",
+        "n": "YOLOv13-N",
+        "d": "2025-06-21",
+        "m1": "41.6",
+        "m2": "508 (T4)"
+      },
+      {
+        "p": {
+          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2212.07784v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
+        "n": "RTMDet-tiny",
+        "d": "2022-12-14",
+        "m1": "41.1",
+        "m2": "1020 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+          "link": "https://arxiv.org/abs/2606.03748v1"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO26n (Objects365 pre-training)",
+        "d": "2026-06-02",
+        "m1": "40.9",
+        "m2": "588 (T4)"
+      },
+      {
+        "p": {
+          "name": "Rethinking Features-Fused-Pyramid-Neck for Object Detection",
+          "link": "https://arxiv.org/abs/2505.12820v1"
+        },
+        "c": "https://github.com/AlanLi1997/rethinking-fpn",
+        "n": "SYOLO-s",
+        "d": "2025-05-19",
+        "m1": "40.8"
+      },
+      {
+        "p": {
           "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
           "link": "https://arxiv.org/abs/2502.12524v1"
         },
@@ -599,6 +1699,38 @@
         "d": "2025-02-18",
         "m1": "40.6",
         "m2": "610 (T4)"
+      },
+      {
+        "p": {
+          "name": "P$^2$HCT: Plug-and-Play Hierarchical C2F Transformer for Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2505.12772v3"
+        },
+        "c": "https://github.com/inlmouse/P2HCT",
+        "n": "YOLOv11-P2HCT-N",
+        "d": "2025-05-19",
+        "m1": "40.3"
+      },
+      {
+        "p": {
+          "name": "Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism",
+          "link": "https://arxiv.org/abs/2309.11331v5"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "Gold-YOLO-N (self-distillation)",
+        "d": "2023-09-20",
+        "m1": "39.9",
+        "m2": "563 (T4)"
+      },
+      {
+        "p": {
+          "name": "DEYO: DETR with YOLO for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2402.16370v1"
+        },
+        "c": "https://github.com/ouyanghaodong/DEYO",
+        "n": "DEYO-N",
+        "d": "2024-02-26",
+        "m1": "39.7",
+        "m2": "396 (T4)"
       },
       {
         "p": {
@@ -624,6 +1756,71 @@
       },
       {
         "p": {
+          "name": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+          "link": "https://arxiv.org/abs/2408.04804v2"
+        },
+        "c": "https://github.com/iMoonLab/Hyper-YOLO",
+        "n": "Hyper-YOLO-T",
+        "d": "2024-08-09",
+        "m1": "38.5",
+        "m2": "404 (T4)"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-Pico",
+        "d": "2025-09-25",
+        "m1": "38.5"
+      },
+      {
+        "p": {
+          "name": "YOLO-PRO: Enhancing Instance-Specific Object Detection with Full-Channel Global Self-Attention",
+          "link": "https://arxiv.org/abs/2503.02348v3"
+        },
+        "c": "",
+        "n": "YOLO-PRO-N (YOLOv8-based)",
+        "d": "2025-03-04",
+        "m1": "38.3",
+        "m2": "654 (T4)"
+      },
+      {
+        "p": {
+          "name": "Lightweight Backbone Networks Only Require Adaptive Lightweight Self-Attention Mechanisms",
+          "link": "https://arxiv.org/abs/2508.01385v1"
+        },
+        "c": "",
+        "n": "LOLViT-S (YOLO head)",
+        "d": "2025-08-02",
+        "m1": "37.8",
+        "m2": "113 (RTX 4060 Ti)"
+      },
+      {
+        "p": {
+          "name": "DEYO: DETR with YOLO for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2402.16370v1"
+        },
+        "c": "https://github.com/ouyanghaodong/DEYO",
+        "n": "DEYO-tiny",
+        "d": "2024-02-26",
+        "m1": "37.6",
+        "m2": "497 (T4)"
+      },
+      {
+        "p": {
+          "name": "HA-DETR: accelerating real-time object detection by replacing decoder self-attention",
+          "link": "https://doi.org/10.1038/s41598-026-48909-1"
+        },
+        "c": "",
+        "n": "HA-DETR (MobileNetV3-small)",
+        "d": "2026-04-16",
+        "m1": "37.6",
+        "m2": "97 (V100)"
+      },
+      {
+        "p": {
           "name": "YOLOv6 v3.0: A Full-Scale Reloading",
           "link": "https://arxiv.org/abs/2301.05586v1"
         },
@@ -635,6 +1832,38 @@
       },
       {
         "p": {
+          "name": "Octave-YOLO: Cross frequency detection network with octave convolution",
+          "link": "https://arxiv.org/abs/2407.19746v1"
+        },
+        "c": "",
+        "n": "Octave-YOLO-N",
+        "d": "2024-07-29",
+        "m1": "37.5",
+        "m2": "230 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8n",
+        "d": "2023-01-10",
+        "m1": "37.3",
+        "m2": "1010 (A100)"
+      },
+      {
+        "p": {
+          "name": "Rethinking Features-Fused-Pyramid-Neck for Object Detection",
+          "link": "https://arxiv.org/abs/2505.12820v1"
+        },
+        "c": "https://github.com/AlanLi1997/rethinking-fpn",
+        "n": "SYOLO-n (416px)",
+        "d": "2025-05-19",
+        "m1": "35.9"
+      },
+      {
+        "p": {
           "name": "Ultralytics YOLOv5",
           "link": "https://github.com/ultralytics/yolov5"
         },
@@ -643,6 +1872,26 @@
         "d": "2021-10-12",
         "m1": "28.0",
         "m2": "159 (V100)"
+      },
+      {
+        "p": {
+          "name": "3A-YOLO: New Real-Time Object Detectors with Triple Discriminative Awareness and Coordinated Representations",
+          "link": "https://arxiv.org/abs/2412.07168v1"
+        },
+        "c": "",
+        "n": "3A-YOLO-Tiny",
+        "d": "2024-12-10",
+        "m1": "25.9"
+      },
+      {
+        "p": {
+          "name": "3A-YOLO: New Real-Time Object Detectors with Triple Discriminative Awareness and Coordinated Representations",
+          "link": "https://arxiv.org/abs/2412.07168v1"
+        },
+        "c": "",
+        "n": "3A-YOLO-Nano",
+        "d": "2024-12-10",
+        "m1": "23.5"
       }
     ]
   }
